@@ -54,6 +54,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - C:\Users\Professional\Desktop\Vet\vet_project\lib\assest\img\default_user.png
 
   # fonts:
   #   - family: VetIcons

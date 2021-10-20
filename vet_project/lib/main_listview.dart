@@ -56,7 +56,7 @@ Widget buildMenuItem({
 
     final hoverColor = Color(0xffdee2e6);
     return ListTile(
-      leading: Icon(mainIcon ,color: AppColors.ACCENT_COLOR,),
+      leading: Icon(mainIcon ,color: AppColors.MAIN_COLOR,),
       title: Text(text, style: const TextStyle(color: AppColors.GREY_COLOR),
       ),
       trailing: Icon(trailingIcon, color: AppColors.GREY_COLOR),

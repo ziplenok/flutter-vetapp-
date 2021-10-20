@@ -33,6 +33,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  http: 0.12.2
+  intl: ^0.16.1
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +58,7 @@ flutter:
   uses-material-design: true
   assets:
     - C:\Users\Professional\Desktop\Vet\vet_project\lib\assest\img\default_user.png
+    - assets/images/logo.png
 
   # fonts:
   #   - family: VetIcons
@@ -82,6 +85,10 @@ flutter:
     - family: VetIcons
       fonts:
         - asset: assets/VetIcons.ttf
+    - family: 'Baloo'
+      fonts:
+        - asset: assets/fonts/Baloo2-ExtraBold.ttf
+
 
   #   - family: Trajan Pro
   #     fonts:

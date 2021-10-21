@@ -3,8 +3,11 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+// import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

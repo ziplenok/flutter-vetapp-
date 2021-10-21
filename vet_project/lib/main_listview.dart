@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:vet_project/app_constants.dart';
-import 'package:vet_project/assest/vet_icons_icons.dart';
+import 'package:vet_project/assets/vet_icons_icons.dart';
 
 // import 'package:vet_project/veticons_icons.dart';
 

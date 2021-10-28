@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:vet_qyzmet/screens/RegistrationPage.dart';
+import 'package:vet_project/main_screen.dart';
+// import 'package:vet_qyzmet/screens/RegistrationPage.dart';
 
 void main() => runApp(RegisterAnimalSide());
 
@@ -35,7 +36,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(title: Text("Регистрация животных"), leading: Icon(Icons.arrow_back_rounded)),
-        body: PageRegistration(),
+        body: MainScreen(),
       )
     );
   }
